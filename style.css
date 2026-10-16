@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start header  */
+.back{
+    background: #0f164a;
+background: linear-gradient(120deg, rgba(15, 22, 74, 1) 14%, rgb(66, 102, 243) 82%);
+min-height: 50vh;
+width: 100%;
+padding-top: 30px;
+ overflow: hidden;
+ position: relative;
+}
+.logo{
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.2) ;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: max-content;
+    border-radius: 15px;
+    margin: 0 auto ;
+    padding:  15px;
+
+}
+
+.back h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+      margin: 0 auto ;
+      
+       width: max-content;
+       padding-top: 30px;
+       font-size: 40px;
+      
+}
+.back h1 span{
+    color: #4e5bf2 ;
+     position: relative;
+}
+
+.back h1 span::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #4e5bf2;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+}
+.back .pargraph{
+    color: aliceblue;
+   width: 30%;
+    font-style: italic;
+      margin: 0 auto ;
+  padding-top: 30px;
+  text-align: center;
+}
+.back .btn{
+
+margin: 0 auto;
+width: max-content;
+
+}
+.back .btn button{
+      padding: 10px;
+font-size: 20px;
+border-radius: 10px;
+border: none;
+text-align: center;
+     background-color: #0f23ff ;
+color: aliceblue;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.back .btn button:hover{
+    background-color: #4e5bf2;
+}
+
+
+.back::before{
+    content: "";
+    background-color:   rgba(176, 181, 232, 0.207);
+    border-radius: 50%;
+   position: absolute;
+    padding: 80px;
+    top: -20px;
+    right: 40px;
+}
+
+.back::after{
+    content: "";
+    background-color:   rgba(176, 181, 232, 0.207) ;
+    border-radius: 50%;
+   position: absolute;
+    padding: 140px;
+    top: -100px;
+   left: -60px;
+  
+}
+.back .pargraph::after{
+     content: "";
+    background-color:   rgba(176, 181, 232, 0.207) ;
+    border-radius: 50%;
+   position: absolute;
+    padding: 25px;
+   left: 250px;
+   bottom: 40px;
+
+}
+
+.back .pargraph::before{
+     content: "";
+    background-color:   rgba(176, 181, 232, 0.207) ;
+    border-radius: 50%;
+   position: absolute;
+    padding: 60px;
+   right:250px ;
+   bottom: -70px;
+
+}
+.back .btn button::after{
+      content: "";
+    /* background-color:   rgba(176, 181, 232, 0.207) ; */
+    border-radius: 50%;
+    border: rgba(176, 181, 232, 0.207) 3px solid;
+   position: absolute;
+    padding: 20px;
+  top: 15px;
+  right: 400px;
+}
+
+
+/* end header  */
+
+
+/* **************************************************************** */
+/* start comments */
+.comments{
+    width: 300px;
+    margin: 200px auto;
+    padding: 30px;
+    text-align: left;
+    line-height: 1.5;
+ box-shadow: 2px 2px 65px 25px rgba(27, 35, 64, 0.32);
+border-radius: 16px;
+max-height: 250px;
+overflow-y: auto;
+direction: ltr;
+  scrollbar-color: orange #f1f1f1; 
+  scrollbar-width: thin;
+}
+
+
+
+.comments h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.comments h2 span{
+    color: orange;
+}
+.comments div{
+    background-color: #EAEAEA ;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.comments div h3{
+    color: orange;
+    font-size: 22px;
+
+}
+.comments div p{
+
+  font-size: 16px;
+  color: #333333;
+  
+   
+}
+/* end  comments */
+
+
+/* ********************************************************* */
+
+/* start quote */
+.quote{
+     width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+ box-shadow: 2px 2px 65px 25px rgba(27, 35, 64, 0.32);
+border-radius: 16px;
+max-height: 250px;
+direction: ltr;
+position: relative;
+}
+.quote h3{
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 20px;
+}
+.quote p{
+margin: 30px; 
+font-size: 22px;
+line-height: 1.5;
+}
+.quote p::before{
+    content: "";
+   width: 5px;
+   height: 70%;
+   background-color: teal;
+ 
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+.quote h2{
+    margin: 30px; 
+font-size: 22px;
+color: #333333;
+font-style: italic;
+}
+/* end quote */
